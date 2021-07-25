@@ -1,0 +1,29 @@
+{
+  "name": "client-side",
+  "version": "1.0.0",
+  "description": "source code of ts-lerning",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack serve --config ./build/webpack.config.js",
+    "build": "cross-env NODE_ENV=production webpack --config ./build/webpack.config.js"
+  },
+  "keywords": [
+    "typescript",
+    "source_code",
+    "egret"
+  ],
+  "author": "codeegret <codeegret@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "html-webpack-plugin": "^5.3.2",
+    "ts-loader": "^9.2.4",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "typescript": "^4.3.5"
+  }
+}
